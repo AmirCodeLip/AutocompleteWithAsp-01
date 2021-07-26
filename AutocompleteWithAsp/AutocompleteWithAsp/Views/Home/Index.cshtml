@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="auto-finder">
+    <input type="text" autocomplete="off" placeholder="search in here" />
+    <a class="btn-search">
+        <i class="fas fa-search"></i>
+    </a>
+    <div class="auto-filler">
+        <ul>
+            <li>
+                <span>
+                    <i class="fas fa-search"></i>
+                </span>
+                <p>
+                    amir
+                </p>
+            </li>
+            <li>
+                <span>
+                    <i class="fas fa-search"></i>
+                </span>
+                <p>
+                    ana
+                </p>
+            </li>
+
+            <li>
+                <span>
+                    <i class="fas fa-search"></i>
+                </span>
+                <p>
+                    steve
+                </p>
+            </li>
+
+
+
+        </ul>
+
+
+
+    </div>
+
+
+</div>
+
+
+@section Head{
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="~/css/auto-filler.css" rel="stylesheet" />
+}
+@section Scripts{
+    <script src="~/js/auto-filler.js"></script>
+
+
+}

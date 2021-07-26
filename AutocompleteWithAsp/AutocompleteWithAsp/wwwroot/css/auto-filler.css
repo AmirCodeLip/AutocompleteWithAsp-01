@@ -1,0 +1,68 @@
+﻿.auto-finder {
+    background-color: #f0f0f1;
+    border-radius: 6px;
+    position: relative;
+}
+
+    .auto-finder input {
+        outline: none;
+        border: none;
+        background-color: #f0f0f1;
+        width: 96%;
+        height: 50px;
+        margin: 1px 19px 5px 21px;
+        font-size: 20px;
+        color: #474747;
+    }
+
+    .auto-finder .btn-search {
+        position: absolute;
+        right: 2%;
+        top: 11%;
+        font-size: 29px;
+    }
+
+.auto-filler ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .auto-filler ul li {
+        margin: 2px 2px 2px 2px;
+        height: 40px;
+        line-height: 2.3;
+    }
+
+        .auto-filler ul li i {
+            margin: 0 0 0 10px;
+        }
+
+        .auto-filler ul li p {
+            margin: 0;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+    .auto-filler ul :hover, .auto-filler ul .active {
+        background-color: rgba(175,192,218,0.2)
+    }
+
+.active-auto-finder input {
+    background-color: white;
+}
+
+.active-auto-finder {
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0/5%);
+    background-color: white;
+}
+
+    .active-auto-finder .auto-filler {
+        cursor: pointer;
+        height: fit-content !important;
+    }
+
+.auto-filler {
+    height: 0;
+    overflow: hidden;
+}
